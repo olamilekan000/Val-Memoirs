@@ -152,8 +152,6 @@ class LandingSecoundSection extends React.Component {
 		story.avatar = "https://avatars0.githubusercontent.com/u/11997567?s=460&v=4"
 		story.date = Date.now().toString()
 
-		console.log(story)
-
 		this.setState({
 			stories: [...this.state.stories, story]
 		})
@@ -163,8 +161,9 @@ class LandingSecoundSection extends React.Component {
 	}
 
 	incrementLikes = () => {
+		let increasedValue = this.state.likes
 		this.setState({
-			likes: this.state.likes++
+			likes: increasedValue + 1
 		})
 	}
 
