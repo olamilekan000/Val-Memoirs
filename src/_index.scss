@@ -1,0 +1,20 @@
+@import './scss/reset';
+@import './scss/slider';
+@import './scss/Navbar';
+@import './scss/StoryHeader';
+@import './scss/Footer';
+@import './scss/ModalForm';
+
+body > #root > div {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-bottom: 0px;
+}

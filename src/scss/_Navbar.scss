@@ -1,0 +1,27 @@
+nav {
+	position: fixed !important;
+	min-height: 50px;
+	z-index: 2;
+	.transparent{
+		box-shadow: none;
+		background-color: rgba(0,0,0,0.2) !important;
+		li a:hover{
+			background-color: red;
+			margin: 0px;
+		};
+	}
+
+	.navStyleColor{
+		background-color: #fff;
+		color: #77797D;		
+		li a:hover{
+			background-color: green;
+			margin: 0px;
+		};	
+	}
+
+	.brand-logo{
+		font-family: cursive !important;
+	}
+
+}

@@ -1,0 +1,19 @@
+#StoryHeader {
+	font-family: "Source Serif Pro", helvetica;
+	font-style: SemiBold;
+	font-size: 42px;
+	line-height: 58px;
+	letter-spacing: 3%;
+	fill: solid #77797D;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#initials{
+	width: 5em;
+	padding: 5px;
+	background-color: yellow;
+	z-index: 2;
+	border-radius: 50%;
+	/*position: fixed;*/
+}
