@@ -194,3 +194,48 @@ a.previousButton{
   -webkit-transition-delay: 0s;
           transition-delay: 0s;
 }
+
+@media only screen and (max-width: 400px){
+	h1{
+		font-size: 2em !important;
+	}
+
+	.sliderContent{
+		margin-top: 20em;
+	}
+
+}
+
+@media only screen and (max-width: 400px){
+	h1{
+		font-size: 2em !important;
+	}
+
+	.sliderContent{
+		margin-top: 18em;
+	}
+
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 500px){
+	h1{
+		font-size: 3em !important;
+	}
+
+	.sliderContent{
+		margin-top: 18em;
+	}
+
+}
+
+@media only screen and (min-width: 510px) and (max-width: 700px){
+	h1{
+		font-size: 4em !important;
+	}
+
+	.sliderContent{
+		margin-top: 18em;
+	}
+
+}
