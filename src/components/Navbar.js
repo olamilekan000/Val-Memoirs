@@ -28,7 +28,7 @@ class Navbar extends React.Component {
 				      <ul id="nav-mobile" className="right hide-on-med-and-down">
 				        <li><Link to="/">Home</Link></li>
 				        <li><Link to="/">Our Stories</Link></li>
-				        <li><a className="waves-effect red darken-3 waves-light btn modal-trigger" href="#modal2">Add A Story</a></li>
+				        <li><a className="waves-effect white darken-3 waves-light btn modal-trigger" href="#modal2" style={{"color":"red"}}>Add A Story</a></li>
 				      </ul>		        
 			      </div>
 			    </div>
