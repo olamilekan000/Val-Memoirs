@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-export const Modal = () => (
+export const Modal = ({ likes, incrementLikes}) => (
   <div id="modal1" className="modal">
     <div className="modal-content">
       <h4>Love, Love Me Do: A True Valentine Love Story</h4>
@@ -17,6 +17,10 @@ export const Modal = () => (
       I wasn't prepared for another battle.</p>      
     </div>
     <div className="modal-footer">
+      <div className="left">
+        <i className="material-icons" onClick={() => {incrementLikes()}}>favorite</i>
+        <span>Likes: {likes}</span>        
+      </div>
       <Link to="#!" className="modal-close waves-effect waves-green btn-flat">Close</Link>
     </div>
   </div>

@@ -142,7 +142,8 @@ class LandingSecoundSection extends React.Component {
 				first_name: "Seaun",
 				last_name: "John"
 			},																			
-		]
+		],
+		likes: 5
 	}
 
 	addToStory = (story) => {
@@ -159,6 +160,12 @@ class LandingSecoundSection extends React.Component {
 
 		console.log(this.state.stories.length)
 
+	}
+
+	incrementLikes = () => {
+		this.setState({
+			likes: this.state.likes++
+		})
 	}
 
 	componentDidMount(){
@@ -199,7 +206,7 @@ class LandingSecoundSection extends React.Component {
 						{ users }
 					</div>
 				</div>
-				<Modal />
+				<Modal likes={this.state.likes} incrementLikes={this.incrementLikes} />
 				<AddStoryModal addToStory={this.addToStory} />
 			</div>
 		)
